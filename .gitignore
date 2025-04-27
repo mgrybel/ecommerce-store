@@ -1,0 +1,11 @@
+store.db
+store.db-shm
+store.db-wal
+.vscode
+.DS_Store
+.env
+node_modules
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
