@@ -17,6 +17,7 @@ This is an e-commerce store built using the **.NET Framework**, **React**, **Red
 - [Installation](#installation)
 - [Running the application](#running-the-application)
 - [Viewing the application](#viewing-the-application)
+- [API documentation with Swagger](#api-documentation-with-swagger)
 - [Copyright and License](#copyright-and-license)
 
 ## Prerequisites
@@ -186,6 +187,16 @@ By default, there are created two user accounts:
 
 - Email: bob@test.com
 - Password: Pass12345!
+
+## API documentation with Swagger
+
+To get access to the Swagger UI, from the **backend/API** directory, run the following command:
+
+```
+dotnet watch
+```
+
+Next, go to https://localhost:5001/swagger to view the Swagger UI.
 
 ## Copyright and License
 
