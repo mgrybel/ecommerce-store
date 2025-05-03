@@ -24,7 +24,7 @@ const ServerError = () => {
         ) : (
           <Typography variant='h5' gutterBottom>
             Server error
-          </Typography>                        
+          </Typography>
         )}
       </Container>
     </Box>

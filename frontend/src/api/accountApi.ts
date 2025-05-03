@@ -7,7 +7,6 @@ import { Address, User } from '../models/user';
 import { LoginSchema } from '../schemas/loginSchema';
 import { router } from '../routes/Routes';
 
-
 export const accountApi = createApi({
   reducerPath: 'accountApi',
   baseQuery: baseQueryWithErrorHandling,
