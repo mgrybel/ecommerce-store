@@ -21,8 +21,8 @@ const CheckoutSuccess = lazy(
 const OrdersPage = lazy(
   async () => await import('../features/orders/OrdersPage')
 );
-const OrderDetailedPage = lazy(
-  async () => await import('../features/orders/OrderDetailedPage')
+const OrderDetailsPage = lazy(
+  async () => await import('../features/orders/OrderDetailsPage')
 );
 const InventoryPage = lazy(
   async () => await import('../features/admin/InventoryPage')
@@ -74,7 +74,7 @@ export const router = createBrowserRouter([
             path: 'orders/:id',
             element: (
               <Suspense fallback={<LoadingScreen />}>
-                <OrderDetailedPage />
+                <OrderDetailsPage />
               </Suspense>
             ),
           },

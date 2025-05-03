@@ -22,7 +22,7 @@ import {
   formatPaymentString,
 } from '../../utils/utils';
 
-const OrderDetailedPage = () => {
+const OrderDetailsPage = () => {
   const theme = useTheme();
   const { id } = useParams();
 
@@ -209,4 +209,4 @@ const OrderDetailedPage = () => {
   );
 };
 
-export default OrderDetailedPage;
+export default OrderDetailsPage;
