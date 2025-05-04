@@ -18,6 +18,7 @@ This is an e-commerce store built using the **.NET Framework**, **React**, **Red
 - [Running the application](#running-the-application)
 - [Viewing the application](#viewing-the-application)
 - [API documentation with Swagger](#api-documentation-with-swagger)
+- [Contributing](#contributing)
 - [Copyright and License](#copyright-and-license)
 
 ## Prerequisites
@@ -197,6 +198,15 @@ dotnet watch
 ```
 
 Next, go to https://localhost:5001/swagger to view the Swagger UI.
+
+## Contributing
+
+Contributions are accepted through GitHub [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+
+1. Fork the repository and make the change. Please remember to document your code and describe the change you wish to add to this project - what it is and why it is needed.
+2. Submit a pull request to this repository.
+3. We will review your pull request.
+4. Once approved, your code will be added to this repository.
 
 ## Copyright and License
 
