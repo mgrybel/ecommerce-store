@@ -15,7 +15,8 @@ const Footer = () => {
             gutterBottom
             sx={{ marginTop: '25px' }}
           >
-            Copyright &copy; {new Date().getFullYear()} mgrybel
+            Copyright &copy; {new Date().getFullYear()} mgrybel. For
+            non-commercial use only.
           </Typography>
         </Box>
       </Grid>
