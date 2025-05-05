@@ -210,4 +210,18 @@ Contributions are accepted through GitHub [pull requests](https://docs.github.
 
 ## Copyright and License
 
-Copyright © 2025 mgrybel. Code released under the MIT license.
+Copyright © 2025 mgrybel. Code released under the CC-BY-NC-SA 4.0 license.<br /><br />
+
+"CC BY-NC-SA" stands for **Creative Commons Attribution-NonCommercial-ShareAlike**. It is one of the licenses provided by Creative Commons, and it comes with the following conditions:
+
+1. **Attribution (BY)**: You must give appropriate credit to the creator, provide a link to the license, and indicate if changes were made. You can do so in any reasonable manner but not in a way that suggests the licensor endorses you or your use.
+
+2. **NonCommercial (NC)**: You may not use the material for commercial purposes. This means you can’t profit from the work or use it as part of something that generates income.
+
+3. **ShareAlike (SA)**: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+### Summary
+
+- Free to use, share, and adapt for **non-commercial purposes**.
+- Must credit the original author.
+- Must share adaptations under the same license.
