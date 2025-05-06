@@ -179,12 +179,12 @@ Go to https://localhost:3000/ to view the application.<br /><br />
 
 By default, there are created two user accounts:
 
-1. Admin
+1. **Admin**
 
 - Email: admin@test.com
 - Password: Pass12345!
 
-2. Customer
+2. **Customer**
 
 - Email: bob@test.com
 - Password: Pass12345!
