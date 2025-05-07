@@ -94,6 +94,10 @@ Before you install and start the application, you must first set up Cloudinary a
 
 4. Next, click the **Create coupon** button.
 
+### Stripe documentation
+
+Here you can find Stripe [documentation](https://docs.stripe.com/testing) and learn more about testing Stripe integration and simulating payments.
+
 ### Setting up frontend environment variables
 
 1. In Visual Studio Code, in the **frontend** directory, create a new file: **.env**
