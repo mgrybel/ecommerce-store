@@ -74,11 +74,17 @@ const OrderSummary = () => {
               color='primary'
               fullWidth
               sx={{ mb: 1 }}
+              data-testid='checkout'
             >
               Checkout
             </Button>
           )}
-          <Button component={Link} to='/catalog' fullWidth>
+          <Button
+            component={Link}
+            to='/catalog'
+            fullWidth
+            data-testid='continue'
+          >
             Continue Shopping
           </Button>
         </Box>

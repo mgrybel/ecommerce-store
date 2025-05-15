@@ -65,6 +65,7 @@ const CartItem = ({ item }: Props) => {
               color='error'
               size='small'
               sx={{ border: 1, borderRadius: '4px', minWidth: 0 }}
+              data-testid='decrease'
             >
               <Remove />
             </IconButton>
@@ -74,6 +75,7 @@ const CartItem = ({ item }: Props) => {
               color='success'
               size='small'
               sx={{ border: 1, borderRadius: '4px', minWidth: 0 }}
+              data-testid='increase'
             >
               <Add />
             </IconButton>
@@ -97,6 +99,7 @@ const CartItem = ({ item }: Props) => {
           mr: { xs: 2, md: 1 },
           mt: { xs: 2, md: 1 },
         }}
+        data-testid='remove'
       >
         <Close />
       </IconButton>
