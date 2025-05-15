@@ -90,13 +90,15 @@ const MainCarousel = () => {
             padding='20px'
             borderRadius='4px'
             textAlign='left'
-            backgroundColor='rgb(0, 0, 0, 0.1)'
             position='absolute'
             top='46%'
             left={isSm ? '10%' : '0'}
             right={isSm ? undefined : '0'}
             margin={isSm ? undefined : '0 auto'}
             maxWidth={isSm ? undefined : '240px'}
+            sx={{
+              bgcolor: 'rgb(0, 0, 0, 0.1)',
+            }}
           >
             <Typography fontWeight='bold' color={theme.palette.primary.main}>
               NEW ITEMS
@@ -133,13 +135,15 @@ const MainCarousel = () => {
             padding='20px'
             borderRadius='4px'
             textAlign='left'
-            backgroundColor='rgb(0, 0, 0, 0.1)'
             position='absolute'
             top='46%'
             left={isSm ? '10%' : '0'}
             right={isSm ? undefined : '0'}
             margin={isSm ? undefined : '0 auto'}
             maxWidth={isSm ? undefined : '240px'}
+            sx={{
+              bgcolor: 'rgb(0, 0, 0, 0.1)',
+            }}
           >
             <Typography fontWeight='bold' color={theme.palette.primary.main}>
               NEW ITEMS
@@ -176,13 +180,15 @@ const MainCarousel = () => {
             padding='20px'
             borderRadius='4px'
             textAlign='left'
-            backgroundColor='rgb(0, 0, 0, 0.1)'
             position='absolute'
             top='46%'
             left={isSm ? '10%' : '0'}
             right={isSm ? undefined : '0'}
             margin={isSm ? undefined : '0 auto'}
             maxWidth={isSm ? undefined : '240px'}
+            sx={{
+              bgcolor: 'rgb(0, 0, 0, 0.1)',
+            }}
           >
             <Typography fontWeight='bold' color={theme.palette.primary.main}>
               NEW ITEMS
@@ -219,13 +225,15 @@ const MainCarousel = () => {
             padding='20px'
             borderRadius='4px'
             textAlign='left'
-            backgroundColor='rgb(0, 0, 0, 0.1)'
             position='absolute'
             top='46%'
             left={isSm ? '10%' : '0'}
             right={isSm ? undefined : '0'}
             margin={isSm ? undefined : '0 auto'}
             maxWidth={isSm ? undefined : '240px'}
+            sx={{
+              bgcolor: 'rgb(0, 0, 0, 0.1)',
+            }}
           >
             <Typography fontWeight='bold' color={theme.palette.primary.main}>
               NEW ITEMS
@@ -262,13 +270,15 @@ const MainCarousel = () => {
             padding='20px'
             borderRadius='4px'
             textAlign='left'
-            backgroundColor='rgb(0, 0, 0, 0.1)'
             position='absolute'
             top='46%'
             left={isSm ? '10%' : '0'}
             right={isSm ? undefined : '0'}
             margin={isSm ? undefined : '0 auto'}
             maxWidth={isSm ? undefined : '240px'}
+            sx={{
+              bgcolor: 'rgb(0, 0, 0, 0.1)',
+            }}
           >
             <Typography fontWeight='bold' color={theme.palette.primary.main}>
               NEW ITEMS
