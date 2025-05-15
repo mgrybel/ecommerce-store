@@ -209,7 +209,9 @@ const CheckoutStepper = () => {
       </Box>
 
       <Box display='flex' paddingTop={2} justifyContent='space-between'>
-        <Button onClick={handleBack}>Back</Button>
+        <Button onClick={handleBack} data-testid='back'>
+          Back
+        </Button>
         <LoadingButton
           onClick={handleNext}
           disabled={
@@ -218,6 +220,7 @@ const CheckoutStepper = () => {
             submitting
           }
           loading={submitting}
+          data-testid={activeStep === steps.length - 1 ? 'pay' : 'next'}
         >
           {activeStep === steps.length - 1
             ? `Pay ${currencyFormat(total)}`

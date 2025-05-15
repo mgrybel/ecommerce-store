@@ -123,6 +123,7 @@ const OrderSummary = () => {
               disabled={!!cart?.coupon}
               {...register('code', { required: 'Voucher code missing' })}
               sx={{ my: 2 }}
+              data-testid='voucher'
             />
 
             <LoadingButton
@@ -132,6 +133,7 @@ const OrderSummary = () => {
               color='primary'
               fullWidth
               disabled={!!cart?.coupon}
+              data-testid='apply'
             >
               Apply code
             </LoadingButton>
