@@ -20,7 +20,6 @@ const CustomCard = ({ price, name, image }: Props) => {
     <Card
       elevation={3}
       sx={{
-        //width: 300,
         width: { sx: 400, sm: 350, md: 350, lg: 300 },
         borderRadius: '4px',
         display: 'flex',
