@@ -62,6 +62,7 @@ const Hero = () => {
                       border: `2px solid ${theme.palette.primary.main}`,
                     },
                   }}
+                  data-testid='catalog'
                 >
                   Go to Store
                 </Button>
@@ -88,6 +89,7 @@ const Hero = () => {
                         border: `2px solid ${theme.palette.primary.main}`,
                       },
                     }}
+                    data-testid='contact'
                   >
                     Contact us
                   </Button>
