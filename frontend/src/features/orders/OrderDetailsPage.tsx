@@ -67,7 +67,12 @@ const OrderDetailsPage = () => {
           <Typography variant='h5' align='center'>
             Order summary for #{order.id}
           </Typography>
-          <Button component={Link} to='/orders' variant='outlined'>
+          <Button
+            component={Link}
+            to='/orders'
+            variant='outlined'
+            data-testid='back'
+          >
             Back to orders
           </Button>
         </Box>

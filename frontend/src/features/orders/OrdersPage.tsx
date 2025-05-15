@@ -95,7 +95,10 @@ const OrdersPage = () => {
                   <TableCell>{currencyFormat(order.total)}</TableCell>
                   <TableCell>{order.orderStatus}</TableCell>
                   <TableCell align='left'>
-                    <Button startIcon={<VisibilityOutlined />} />
+                    <Button
+                      startIcon={<VisibilityOutlined />}
+                      data-testid='view'
+                    />
                   </TableCell>
                 </TableRow>
               ))}
