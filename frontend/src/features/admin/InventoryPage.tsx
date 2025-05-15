@@ -69,6 +69,7 @@ const InventoryPage = () => {
           sx={{ m: 2 }}
           size='large'
           variant='contained'
+          data-testid='create'
         >
           Create
         </Button>
@@ -141,11 +142,13 @@ const InventoryPage = () => {
                     <Button
                       onClick={() => handleSelectProduct(product)}
                       startIcon={<Edit />}
+                      data-testid={`edit${product.id}`}
                     />
                     <Button
                       onClick={() => handleDeleteProduct(product.id)}
                       startIcon={<Delete />}
                       color='error'
+                      data-testid={`delete${product.id}`}
                     />
                   </TableCell>
                 </TableRow>
