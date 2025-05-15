@@ -56,7 +56,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
             minHeight: 70,
           }}
         >
-          <Link href='/' sx={{ textDecoration: 'none' }}>
+          <Link href='/' sx={{ textDecoration: 'none' }} data-testid='logo'>
             <IconButton size='large' disabled>
               <ShoppingBagOutlined
                 sx={{
@@ -94,6 +94,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
               href='/catalog'
               icon={<Inventory2Outlined />}
               text='Products'
+              testId='products'
             />
           </Box>
 
@@ -109,12 +110,14 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                   href='/orders'
                   icon={<ListAltOutlined />}
                   text='My orders'
+                  testId='orders'
                 />
                 {user.roles.includes('Admin') && (
                   <CustomButton
                     href='/Inventory'
                     icon={<SummarizeOutlined />}
                     text='Inventory'
+                    testId='inventory'
                   />
                 )}
                 <Button
@@ -135,6 +138,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                       color: theme.palette.primary.main,
                     },
                   }}
+                  data-testid='logout'
                 >
                   Logout
                 </Button>
@@ -145,15 +149,21 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                   href='/login'
                   icon={<PersonOutlineOutlined />}
                   text='Login'
+                  testId='login'
                 />
                 <CustomButton
                   href='/register'
                   icon={<PersonAddOutlined />}
                   text='Register'
+                  testId='register'
                 />
               </>
             )}
-            <Link href='/cart' sx={{ textDecoration: 'none' }}>
+            <Link
+              href='/cart'
+              sx={{ textDecoration: 'none' }}
+              data-testid='cart'
+            >
               <IconButton size='large'>
                 <Badge badgeContent={itemCount} color='primary'>
                   <ShoppingCartOutlined
@@ -183,6 +193,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                 padding: 1,
                 borderColor: alpha(theme.palette.divider, 0.2),
               }}
+              data-testid='menu'
             >
               <Menu />
             </Button>

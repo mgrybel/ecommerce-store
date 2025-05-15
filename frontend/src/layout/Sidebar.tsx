@@ -53,7 +53,11 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
       >
         <Box height='100%'>
           <Box width={1}>
-            <Link href='/' style={{ textDecoration: 'none' }}>
+            <Link
+              href='/'
+              style={{ textDecoration: 'none' }}
+              data-testid='logo'
+            >
               <IconButton size='large' disabled>
                 <ShoppingBagOutlined
                   sx={{
@@ -85,6 +89,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                 href='/catalog'
                 icon={<Inventory2Outlined />}
                 text='Products'
+                testId='products'
               />
 
               {user ? (
@@ -94,6 +99,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                       href='/orders'
                       icon={<ListAltOutlined />}
                       text='My orders'
+                      testId='orders'
                     />
                   </Box>
                   {user.roles.includes('Admin') && (
@@ -102,6 +108,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                         href='/Inventory'
                         icon={<SummarizeOutlined />}
                         text='Inventory'
+                        testId='inventory'
                       />
                     </Box>
                   )}
@@ -124,6 +131,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                           color: theme.palette.primary.main,
                         },
                       }}
+                      data-testid='logout'
                     >
                       Logout
                     </Button>
@@ -136,6 +144,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                       href='/login'
                       icon={<PersonOutlineOutlined />}
                       text='Login'
+                      testId='login'
                     />
                   </Box>
                   <Box paddingY={1}>
@@ -143,13 +152,18 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                       href='/register'
                       icon={<PersonAddOutlined />}
                       text='Register'
+                      testId='register'
                     />
                   </Box>
                 </>
               )}
 
               <Box paddingY={1} paddingX={1}>
-                <Link href='/cart' sx={{ textDecoration: 'none' }}>
+                <Link
+                  href='/cart'
+                  sx={{ textDecoration: 'none' }}
+                  data-testid='cart'
+                >
                   <IconButton size='large'>
                     <Badge
                       badgeContent={itemCount}
