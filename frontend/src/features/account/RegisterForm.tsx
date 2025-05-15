@@ -78,6 +78,7 @@ const RegisterForm = () => {
               {...register('email')}
               error={!!errors.email}
               helperText={errors.email?.message}
+              data-testid='email'
             />
             <TextField
               fullWidth
@@ -86,11 +87,13 @@ const RegisterForm = () => {
               {...register('password')}
               error={!!errors.password}
               helperText={errors.password?.message}
+              data-testid='password'
             />
             <Button
               disabled={isLoading || !isValid}
               variant='contained'
               type='submit'
+              data-testid='createAccount'
             >
               Create an account
             </Button>
@@ -101,6 +104,7 @@ const RegisterForm = () => {
                 to='/login'
                 color='primary'
                 sx={{ textDecoration: 'none' }}
+                data-testid='signIn'
               >
                 Sign in
               </Typography>
