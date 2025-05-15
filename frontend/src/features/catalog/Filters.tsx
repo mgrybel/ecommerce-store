@@ -69,6 +69,7 @@ const Filters = ({ filtersData: data }: Props) => {
       <Button
         onClick={() => dispatch(resetParams())}
         sx={{ display: { xl: 'flex', lg: 'none', md: 'none', xs: 'none' } }}
+        data-testid='reset'
       >
         Reset filters
       </Button>

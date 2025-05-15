@@ -29,6 +29,7 @@ const Search = () => {
           setTerm(e.target.value);
           debouncedSearch(e);
         }}
+        data-testid='search'
       />
     </>
   );
