@@ -42,8 +42,8 @@ https://localhost:3000/ <br />
 - [Orders](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#102) button: `testId='orders'` - `data-testid` in the [CustomButton](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/components/CustomButton.tsx?plain=1#L35) component
 - [Inventory](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#111) button: `testId='inventory'` - `data-testid` in the [CustomButton](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/components/CustomButton.tsx?plain=1#L35) component
 - [Logout](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#134) button: `data-testid='logout'`
-- [Login](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#147) button: `testId='login'`
-- [Register](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#155) button: `testId='register'`
+- [Login](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#147) button: `testId='login'` - `data-testid` in the [CustomButton](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/components/CustomButton.tsx?plain=1#L35) component
+- [Register](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#155) button: `testId='register'` - `data-testid` in the [CustomButton](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/components/CustomButton.tsx?plain=1#L35) component
 - [Cart](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Sidebar.tsx?plain=1#165) button: `data-testid='cart'`
 
 ### data-testid attributes added to the home page
