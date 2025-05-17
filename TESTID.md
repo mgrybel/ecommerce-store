@@ -6,18 +6,18 @@ The **getByTestId** locator is a Playwright method that targets elements based 
 
 https://localhost:3000/login <br />
 
-- [Email](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L70) input field: `data-testid='email'` <br />
-- [Password](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L79) input field: `data-testid='password'` <br />
-- [Sign in](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L85) button: `data-testid='signUp'` <br />
+- [Email](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L70) input field: `data-testid='email'`
+- [Password](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L79) input field: `data-testid='password'`
+- [Sign in](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L85) button: `data-testid='signUp'`
 - [Sign up](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L96) link: `data-testid='signUp'`
 
 #### data-testid attributes added to the registration page
 
 https://localhost:3000/register <br />
 
-- [Email](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L81) input field: `data-testid='email'` <br />
-- [Password](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L90) input field: `data-testid='password'` <br />
-- [Create an Account](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L96) button: `data-testid='createAccount'` <br />
+- [Email](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L81) input field: `data-testid='email'`
+- [Password](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L90) input field: `data-testid='password'`
+- [Create an Account](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L96) button: `data-testid='createAccount'`
 - [Sign in](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/RegisterForm.tsx?plain=1#L107) link: `data-testid='signIn'`
 
 #### data-testid attributes added to the header
@@ -58,11 +58,21 @@ https://localhost:3000/ <br />
 - [Subscribe](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/home/sections/CallToAction.tsx?plain=1#L105) button: `data-testid='subscribe'`
 - [Scroll to the top](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/layout/Layout.tsx?plain=1#L87) button at the bottom on the left: `data-testid='scrollToTop'`
 
-#### data-testid attributes added to the product page
+#### data-testid attributes added to the products page
 
 https://localhost:3000/catalog <br />
 
+- [Search](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/Search.tsx?plain=1#L32) input field: `data-testid='search'`
+- [Reset filters](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/Filters.tsx?plain=1#L72) button: `data-testid='reset'`
+- [Add to cart](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductCard.tsx?plain=1#L57) button: `data-testid='addToCart'`
+- [View](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductCard.tsx?plain=1#L64) button: `data-testid={`view${product.id}`}`
+
+#### data-testid attributes added to the product details page
+
 https://localhost:3000/catalog/10 <br />
+
+- [Quantity in cart](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductDetails.tsx?plain=1#L153) input field: `data-testid='quantity'`
+- [Add to cart / Update quantity](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductDetails.tsx?plain=1#L167) button: `data-testid={item ? 'update' : 'add'}`
 
 #### data-testid attributes added to the cart page
 
