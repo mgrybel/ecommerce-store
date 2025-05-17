@@ -65,7 +65,7 @@ https://localhost:3000/catalog <br />
 - [Search](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/Search.tsx?plain=1#L32) input field: `data-testid='search'`
 - [Reset filters](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/Filters.tsx?plain=1#L72) button: `data-testid='reset'`
 - [Add to cart](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductCard.tsx?plain=1#L57) button: `data-testid='addToCart'`
-- [View](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductCard.tsx?plain=1#L64) button: `data-testid={`view${product.id}`}`
+- [View](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/catalog/ProductCard.tsx?plain=1#L64) button: ` data-testid={``view${product.id}``} `
 
 #### data-testid attributes added to the product details page
 
