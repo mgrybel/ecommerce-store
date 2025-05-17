@@ -6,7 +6,8 @@ The **getByTestId** locator is a Playwright method that targets elements based 
 
 https://localhost:3000/login <br /><br />
 
-- **Email** input field: `data-testid='email'` <br />
+- [Email](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/account/LoginForm.tsx?plain=1#L70) input field: `data-testid='email'` <br />
+
 - **Password** input field: `data-testid='password'` <br />
 - **Sign in** button: `data-testid='signUp'` <br />
 - **Sign up** link: `data-testid='signUp'`
