@@ -78,6 +78,12 @@ https://localhost:3000/catalog/10 <br />
 
 https://localhost:3000/cart <br />
 
+- [Decrease](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/cart/CartItem.tsx?plain=1#L68) button (minus sign): `data-testid='decrease'`
+- [Increase](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/cart/CartItem.tsx?plain=1#L78) button (plus sign): `data-testid='increase'`
+- [Remove](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/cart/CartItem.tsx?plain=1#L102) button (X sign): `data-testid='remove'`
+- [Checkout](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/components/OrderSummary.tsx?plain=1#L77) button: `data-testid='checkout'`
+- [Continue shopping](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/components/OrderSummary.tsx?plain=1#L86) button: `data-testid='continue'`
+
 #### data-testid attributes added to the checkout page
 
 https://localhost:3000/checkout <br />
