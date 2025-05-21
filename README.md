@@ -177,6 +177,14 @@ To run the frontend part of the application, in the second Terminal window, from
 npm run dev
 ```
 
+### 3. Running frontend and backend with one command ( using a single terminal window )
+
+To run the frontend and backend using a single command, in the terminal window, from the **frontend** directory, run the following command:
+
+```
+npm run all
+```
+
 ## Viewing the application
 
 Go to https://localhost:3000/ to view the application.<br /><br />
