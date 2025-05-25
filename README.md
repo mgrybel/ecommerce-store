@@ -181,11 +181,7 @@ npm run dev
 
 ### Option 2 - Running the backend and frontend with one command (using a single Terminal window)
 
-To run the backend and frontend with one command using a single Terminal window, from the **root** directory, run the following commands:
-
-```
-cd frontend
-```
+To run the backend and frontend parts of the application with one command using a single Terminal window, from the **frontend** directory, run the following command:
 
 ```
 npm run all
