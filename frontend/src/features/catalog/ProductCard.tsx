@@ -54,6 +54,7 @@ const ProductCard = ({ product }: Props) => {
         <Button
           disabled={isLoading}
           onClick={() => addCartItem({ product: product, quantity: 1 })}
+          id='addToCart'
           data-testid='addToCart'
         >
           Add to cart
@@ -61,6 +62,7 @@ const ProductCard = ({ product }: Props) => {
         <Button
           component={Link}
           to={`/catalog/${product.id}`}
+          id={`view${product.id}`}
           data-testid={`view${product.id}`}
         >
           View

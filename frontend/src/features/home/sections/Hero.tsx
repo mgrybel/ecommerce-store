@@ -62,6 +62,7 @@ const Hero = () => {
                       border: `2px solid ${theme.palette.primary.main}`,
                     },
                   }}
+                  id='catalog'
                   data-testid='catalog'
                 >
                   Go to Store
@@ -89,6 +90,7 @@ const Hero = () => {
                         border: `2px solid ${theme.palette.primary.main}`,
                       },
                     }}
+                    id='contact'
                     data-testid='contact'
                   >
                     Contact us

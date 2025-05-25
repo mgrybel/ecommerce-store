@@ -67,6 +67,7 @@ const LoginForm = () => {
               {...register('email')}
               error={!!errors.email}
               helperText={errors.email?.message}
+              id='email'
               data-testid='email'
             />
             <TextField
@@ -76,12 +77,14 @@ const LoginForm = () => {
               {...register('password')}
               error={!!errors.password}
               helperText={errors.password?.message}
+              id='password'
               data-testid='password'
             />
             <Button
               type='submit'
               variant='contained'
               disabled={isLoading}
+              id='signIn'
               data-testid='signIn'
             >
               Sign in
@@ -93,6 +96,7 @@ const LoginForm = () => {
                 to='/register'
                 color='primary'
                 sx={{ textDecoration: 'none' }}
+                id='signUp'
                 data-testid='signUp'
               >
                 Sign up

@@ -56,6 +56,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
             <Link
               href='/'
               style={{ textDecoration: 'none' }}
+              id='logo'
               data-testid='logo'
             >
               <IconButton size='large' disabled>
@@ -131,6 +132,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                           color: theme.palette.primary.main,
                         },
                       }}
+                      id='logout'
                       data-testid='logout'
                     >
                       Logout
@@ -162,6 +164,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                 <Link
                   href='/cart'
                   sx={{ textDecoration: 'none' }}
+                  id='cart'
                   data-testid='cart'
                 >
                   <IconButton size='large'>

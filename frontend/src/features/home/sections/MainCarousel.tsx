@@ -38,6 +38,7 @@ const MainCarousel = () => {
                   border: `2px solid ${theme.palette.primary.main}`,
                 },
               }}
+              id='previous'
               data-testid='previous'
             >
               <NavigateBefore />
@@ -67,6 +68,7 @@ const MainCarousel = () => {
                   border: `2px solid ${theme.palette.primary.main}`,
                 },
               }}
+              id='next'
               data-testid='next'
             >
               <NavigateNext />

@@ -176,6 +176,7 @@ const ProductForm = ({
               onClick={() => setEditMode(false)}
               variant='contained'
               color='inherit'
+              id='cancel'
               data-testid='cancel'
             >
               Cancel
@@ -185,6 +186,7 @@ const ProductForm = ({
               variant='contained'
               color='primary'
               type='submit'
+              id='submit'
               data-testid='submit'
             >
               Submit

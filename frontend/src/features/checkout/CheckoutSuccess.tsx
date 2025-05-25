@@ -87,6 +87,7 @@ const CheckoutSuccess = () => {
             color='primary'
             component={Link}
             to={`/orders/${order.id}`}
+            id='viewOrder'
             data-testid='viewOrder'
           >
             View your order
@@ -96,6 +97,7 @@ const CheckoutSuccess = () => {
             to='/catalog'
             variant='outlined'
             color='primary'
+            id='continue'
             data-testid='continue'
           >
             Continue shopping

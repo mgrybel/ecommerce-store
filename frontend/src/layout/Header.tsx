@@ -56,7 +56,12 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
             minHeight: 70,
           }}
         >
-          <Link href='/' sx={{ textDecoration: 'none' }} data-testid='logo'>
+          <Link
+            href='/'
+            sx={{ textDecoration: 'none' }}
+            id='logo'
+            data-testid='logo'
+          >
             <IconButton size='large' disabled>
               <ShoppingBagOutlined
                 sx={{
@@ -138,6 +143,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                       color: theme.palette.primary.main,
                     },
                   }}
+                  id='logout'
                   data-testid='logout'
                 >
                   Logout
@@ -162,6 +168,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
             <Link
               href='/cart'
               sx={{ textDecoration: 'none' }}
+              id='cart'
               data-testid='cart'
             >
               <IconButton size='large'>
@@ -193,6 +200,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                 padding: 1,
                 borderColor: alpha(theme.palette.divider, 0.2),
               }}
+              id='menu'
               data-testid='menu'
             >
               <Menu />

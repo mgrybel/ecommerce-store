@@ -97,6 +97,7 @@ const OrdersPage = () => {
                   <TableCell align='left'>
                     <Button
                       startIcon={<VisibilityOutlined />}
+                      id='view'
                       data-testid='view'
                     />
                   </TableCell>

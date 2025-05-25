@@ -74,6 +74,7 @@ const OrderSummary = () => {
               color='primary'
               fullWidth
               sx={{ mb: 1 }}
+              id='checkout'
               data-testid='checkout'
             >
               Checkout
@@ -83,6 +84,7 @@ const OrderSummary = () => {
             component={Link}
             to='/catalog'
             fullWidth
+            id='continue'
             data-testid='continue'
           >
             Continue Shopping
@@ -123,6 +125,7 @@ const OrderSummary = () => {
               disabled={!!cart?.coupon}
               {...register('code', { required: 'Voucher code missing' })}
               sx={{ my: 2 }}
+              id='voucher'
               data-testid='voucher'
             />
 
@@ -133,6 +136,7 @@ const OrderSummary = () => {
               color='primary'
               fullWidth
               disabled={!!cart?.coupon}
+              id='apply'
               data-testid='apply'
             >
               Apply code

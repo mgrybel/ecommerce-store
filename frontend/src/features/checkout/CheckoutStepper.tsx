@@ -209,7 +209,7 @@ const CheckoutStepper = () => {
       </Box>
 
       <Box display='flex' paddingTop={2} justifyContent='space-between'>
-        <Button onClick={handleBack} data-testid='back'>
+        <Button onClick={handleBack} id='back' data-testid='back'>
           Back
         </Button>
         <LoadingButton
@@ -220,6 +220,7 @@ const CheckoutStepper = () => {
             submitting
           }
           loading={submitting}
+          id={activeStep === steps.length - 1 ? 'pay' : 'next'}
           data-testid={activeStep === steps.length - 1 ? 'pay' : 'next'}
         >
           {activeStep === steps.length - 1

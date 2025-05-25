@@ -71,6 +71,7 @@ const OrderDetailsPage = () => {
             component={Link}
             to='/orders'
             variant='outlined'
+            id='back'
             data-testid='back'
           >
             Back to orders

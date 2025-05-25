@@ -84,6 +84,7 @@ const Layout = ({ children }: LayoutProps) => {
                   border: `2px solid ${theme.palette.primary.main}`,
                 },
               }}
+              id='scrollToTop'
               data-testid='scrollToTop'
             >
               <KeyboardArrowUp />

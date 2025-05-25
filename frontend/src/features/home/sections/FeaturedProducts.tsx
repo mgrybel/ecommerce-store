@@ -50,18 +50,25 @@ const FeaturedProducts = () => {
           },
         }}
       >
-        <Tab label='ALL' value='all' data-testid='all' />
+        <Tab label='ALL' value='all' id='all' data-testid='all' />
         <Tab
           label='NEW ARRIVALS'
           value='newArrivals'
+          id='newArrivals'
           data-testid='newArrivals'
         />
         <Tab
           label='BESTSELLERS'
           value='bestsellers'
+          id='bestsellers'
           data-testid='bestsellers'
         />
-        <Tab label='TOP RATED' value='topRated' data-testid='topRated' />
+        <Tab
+          label='TOP RATED'
+          value='topRated'
+          id='topRated'
+          data-testid='topRated'
+        />
       </Tabs>
       <Grid container spacing={{ xs: 4, sm: 3, md: 3, lg: 4 }}>
         {value === 'all' && (

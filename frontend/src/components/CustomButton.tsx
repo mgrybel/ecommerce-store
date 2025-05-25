@@ -32,6 +32,7 @@ const CustomButton = ({ href, icon, text, testId }: Props) => {
           color: theme.palette.primary.main,
         },
       }}
+      id={testId}
       data-testid={testId}
     >
       {text}

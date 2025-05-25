@@ -150,6 +150,7 @@ const ProductDetails = () => {
                 fullWidth
                 value={quantity}
                 onChange={handleInputChange}
+                id='quantity'
                 data-testid='quantity'
               />
             </Grid>
@@ -164,6 +165,7 @@ const ProductDetails = () => {
                 variant='contained'
                 fullWidth
                 sx={{ height: '55px' }}
+                id={item ? 'update' : 'add'}
                 data-testid={item ? 'update' : 'add'}
               >
                 {item ? 'Update quantity' : 'Add to cart'}

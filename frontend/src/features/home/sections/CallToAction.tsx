@@ -81,6 +81,7 @@ const CallToAction = () => {
             >
               <OutlinedInput
                 placeholder='Enter your email'
+                id='email'
                 data-testid='email'
               />
             </FormControl>
@@ -102,6 +103,7 @@ const CallToAction = () => {
                   border: `2px solid ${theme.palette.primary.main}`,
                 },
               }}
+              id='subscribe'
               data-testid='subscribe'
             >
               Subscribe
