@@ -161,7 +161,9 @@ npm install
 
 To run the application, you must have both the backend and frontend up and running.
 
-### 1. Running the backend
+### Option 1 - Running the backend and frontend separately (using two separate Terminal windows)
+
+#### Step 1. Running the backend
 
 To run the backend part of the application, in the first Terminal window, from the **backend/API** directory, run the following command:
 
@@ -169,7 +171,7 @@ To run the backend part of the application, in the first Terminal window, from t
 dotnet watch
 ```
 
-### 2. Running the frontend
+#### Step 2. Running the frontend
 
 To run the frontend part of the application, in the second Terminal window, from the **frontend** directory, run the following command:
 
@@ -177,9 +179,13 @@ To run the frontend part of the application, in the second Terminal window, from
 npm run dev
 ```
 
-### 3. Running frontend and backend with one command ( using a single terminal window )
+### Option 2 - Running the backend and frontend with one command (using a single Terminal window)
 
-To run the frontend and backend using a single command, in the terminal window, from the **frontend** directory, run the following command:
+To run the backend and frontend with one command using a single Terminal window, from the **root** directory, run the following commands:
+
+```
+cd frontend
+```
 
 ```
 npm run all
