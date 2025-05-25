@@ -7,10 +7,11 @@ interface Props {
   href: string;
   icon: JSX.Element;
   text: string;
+  id?: string;
   testId?: string;
 }
 
-const CustomButton = ({ href, icon, text, testId }: Props) => {
+const CustomButton = ({ href, icon, text, id, testId }: Props) => {
   const theme = useTheme();
 
   return (
@@ -32,7 +33,7 @@ const CustomButton = ({ href, icon, text, testId }: Props) => {
           color: theme.palette.primary.main,
         },
       }}
-      id={testId}
+      id={id}
       data-testid={testId}
     >
       {text}

@@ -90,6 +90,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                 href='/catalog'
                 icon={<Inventory2Outlined />}
                 text='Products'
+                id='products'
                 testId='products'
               />
 
@@ -100,6 +101,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                       href='/orders'
                       icon={<ListAltOutlined />}
                       text='My orders'
+                      id='orders'
                       testId='orders'
                     />
                   </Box>
@@ -109,6 +111,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                         href='/Inventory'
                         icon={<SummarizeOutlined />}
                         text='Inventory'
+                        id='inventory'
                         testId='inventory'
                       />
                     </Box>
@@ -146,6 +149,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                       href='/login'
                       icon={<PersonOutlineOutlined />}
                       text='Login'
+                      id='login'
                       testId='login'
                     />
                   </Box>
@@ -154,6 +158,7 @@ const Sidebar = ({ open, onClose }: SidebarProps) => {
                       href='/register'
                       icon={<PersonAddOutlined />}
                       text='Register'
+                      id='register'
                       testId='register'
                     />
                   </Box>

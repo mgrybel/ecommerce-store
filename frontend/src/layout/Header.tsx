@@ -99,6 +99,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
               href='/catalog'
               icon={<Inventory2Outlined />}
               text='Products'
+              id='products'
               testId='products'
             />
           </Box>
@@ -115,6 +116,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                   href='/orders'
                   icon={<ListAltOutlined />}
                   text='My orders'
+                  id='orders'
                   testId='orders'
                 />
                 {user.roles.includes('Admin') && (
@@ -122,6 +124,7 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                     href='/Inventory'
                     icon={<SummarizeOutlined />}
                     text='Inventory'
+                    id='inventory'
                     testId='inventory'
                   />
                 )}
@@ -155,12 +158,14 @@ const Header = ({ onSidebarOpen }: HeaderProps) => {
                   href='/login'
                   icon={<PersonOutlineOutlined />}
                   text='Login'
+                  id='login'
                   testId='login'
                 />
                 <CustomButton
                   href='/register'
                   icon={<PersonAddOutlined />}
                   text='Register'
+                  id='register'
                   testId='register'
                 />
               </>
