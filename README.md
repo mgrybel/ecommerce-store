@@ -237,5 +237,5 @@ Copyright © 2025 mgrybel. Code released under the CC-BY-NC-SA 4.0 license.<br /
 ### Summary
 
 - Free to use, share, and adapt for **non-commercial purposes**.
-- Must credit the original author.
+- Must credit the creator.
 - Must share adaptations under the same license.
