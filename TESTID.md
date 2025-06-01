@@ -90,12 +90,27 @@ https://localhost:3000/checkout <br />
 
 https://localhost:3000/checkout/success <br />
 
+- [Back](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/checkout/CheckoutStepper.tsx?plain=1#L212) button: `data-testid='back'`
+- [Next / Pay](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/checkout/CheckoutStepper.tsx?plain=1#L224) button: `data-testid={activeStep === steps.length - 1 ? 'pay' : 'next'}`
+- [View your order](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/checkout/CheckoutSuccess.tsx?plain=1#L91) button: `data-testid='viewOrder'`
+
+- [Continue shopping](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/checkout/CheckoutSuccess.tsx?plain=1#L101) button: `data-testid='continue'`
+
 #### data-testid attributes added to the order page
 
 https://localhost:3000/orders <br />
 
 https://localhost:3000/orders/3 <br />
 
+- [View](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/orders/OrdersPage.tsx?plain=1#L101) button: `data-testid='view'`
+- [Back to orders](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/orders/OrderDetailsPage.tsx?plain=1#L75) button: `data-testid='back'`
+
 #### data-testid attributes added to the inventory page
 
 https://localhost:3000/Inventory <br />
+
+- [Create](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/InventoryPage.tsx?plain=1#L73) button: `data-testid='create'`
+- [Edit](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/InventoryPage.tsx?plain=1#L147) button: `data-testid={`edit${product.id}`}`
+- [Delete](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/InventoryPage.tsx?plain=1#L154) button: `data-testid={`delete${product.id}`}`
+- [Cancel] (https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/ProductForm.tsx?plain=1#L180)button: `data-testid='cancel'`
+- [Submit](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/ProductForm.tsx?plain=1#L190) button: `data-testid='submit'`
