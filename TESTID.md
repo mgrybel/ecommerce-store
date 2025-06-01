@@ -112,5 +112,5 @@ https://localhost:3000/Inventory <br />
 - [Create](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/InventoryPage.tsx?plain=1#L73) button: `data-testid='create'`
 - [Edit](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/InventoryPage.tsx?plain=1#L147) button: `data-testid={`edit${product.id}`}`
 - [Delete](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/InventoryPage.tsx?plain=1#L154) button: `data-testid={`delete${product.id}`}`
-- [Cancel] (https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/ProductForm.tsx?plain=1#L180)button: `data-testid='cancel'`
+- [Cancel] (https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/ProductForm.tsx?plain=1#L180) button: `data-testid='cancel'`
 - [Submit](https://github.com/mgrybel/ecommerce-store/blob/master/frontend/src/features/admin/ProductForm.tsx?plain=1#L190) button: `data-testid='submit'`
